@@ -6,7 +6,7 @@ El objetivo es construir una **maqueta visual completa** en HTML y CSS, simuland
 ---
 
 ## 📄 Estructura actual del proyecto
-**(
+```
 LuxTime/
 │
 ├── assets/
@@ -18,7 +18,7 @@ LuxTime/
 │   └── styles.css
 ├── index.html
 └── README.md
-)**
+```
 
 
 ---
