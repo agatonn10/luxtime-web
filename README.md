@@ -10,16 +10,15 @@ El objetivo es construir una **maqueta visual completa** en HTML y CSS, simuland
 LuxTime/
 │
 ├── assets/
-│ └── images/
-│ ├── banner1.jpg
-│ ├── banner2.jpg
-│ └── banner3.jpg
-│
+│   └── images/
+│       ├── banner1.jpg
+│       ├── banner2.jpg
+│       └── banner3.jpg
 ├── css/
-│ └── styles.css
-│
+│   └── styles.css
 ├── index.html
 └── README.md
+
 
 ---
 
