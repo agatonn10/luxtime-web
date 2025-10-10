@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #1d1d1f;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #000;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header .menu a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header .menu a:hover,
+  header .menu a.active {
+    color: #505050;
+  }
+  
+  main.catalogo {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  section {
+    margin-bottom: 60px;
+  }
+  
+  section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #ffffff;
+  }
+  
+  section img, video {
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 15px;
+  }
+  
+  .timeline ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .timeline li {
+    padding: 8px 0;
+    border-left: 3px solid #007bff;
+    padding-left: 15px;
+    margin-left: 10px;
+  }
+  
+  .mision-vision {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .mision-vision div {
+    background: #111;
+    padding: 20px;
+    border-radius: 12px;
+    width: 45%;
+    min-width: 250px;
+  }
+  
+  .valores {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .valores li {
+    background: #007bff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    list-style: none;
+  }
+  
+  .premios {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  blockquote {
+    background: #242424;
+    border-left: 5px solid #0059ff;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+  }
+  
+  cite {
+    display: block;
+    margin-top: 10px;
+    color: #7e7e7e;
+  }
+  
+  footer {
+    background: #000;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #aaa;
+  }
+  
