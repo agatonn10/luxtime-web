@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | LuxTime</title>
+  <link rel="stylesheet" href="../css/contacto.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1>LuxTime</h1>
+    <nav class="menu">
+      <a href="../index.html">Inicio</a>
+      <a href="catalogo.html">Catálogo</a>
+      <a href="contacto.html" class="active">Contacto</a>
+      <a href="historia.html">Historia</a>
+      
+    </nav>
+  </header>
+
+  <!-- SECCIÓN CONTACTO -->
+  <section class="contacto">
+    <h2 class="title">Contáctanos</h2>
+    <p class="subtitle">¿Tienes dudas o deseas más información? Escríbenos y te responderemos pronto.</p>
+
+    <div class="contacto-grid">
+      <!-- FORMULARIO -->
+      <form id="form-contacto" novalidate>
+        <div class="campo">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+        </div>
+
+        <div class="campo">
+          <label for="correo">Correo electrónico</label>
+          <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+        </div>
+
+        <div class="campo">
+          <label for="telefono">Teléfono</label>
+          <input type="tel" id="telefono" name="telefono" placeholder="3000000000" pattern="[0-9]{10}" required>
+        </div>
+
+        <div class="campo">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Enviar mensaje</button>
+      </form>
+
+      <!-- INFO DE CONTACTO -->
+      <div class="info">
+        <h3>Información de contacto</h3>
+        <p><strong>Correo:</strong> contacto@luxtime.com</p>
+        <p><strong>Teléfono:</strong> +57 320 555 7890</p>
+        <p><strong>Dirección:</strong> Bogotá, Colombia</p>
+
+        <div class="redes">
+          <h4>Síguenos</h4>
+          <a href="#">Instagram</a> |
+          <a href="#">Facebook</a> |
+          <a href="#">Twitter</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 LuxTime | Todos los derechos reservados.</p>
+  </footer>
+
+  <script>
+    const form = document.getElementById('form-contacto');
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      alert('¡Mensaje enviado correctamente!');
+      form.reset();
+    });
+  </script>
+</body>
+</html>

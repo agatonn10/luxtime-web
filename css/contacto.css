@@ -1,0 +1,175 @@
+/* ===== CONTACTO ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #1d1d1f;
+    color: #fff;
+  }
+  
+  /* ===== HEADER ===== */
+  
+  header {
+    padding: 10px 30px;
+    background: #1d1d1f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #333;
+  }
+  
+  header .menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    transition: color 0.3s;
+  }
+  
+  header .menu a:hover,
+  header .menu a.active {
+    color: #007bff;
+  }
+  
+  /* ===== SECCIÓN CONTACTO ===== */
+  
+  .contacto {
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .contacto .title {
+    font-size: 42px;
+    margin-bottom: 10px;
+  }
+  
+  .contacto .subtitle {
+    font-size: 18px;
+    color: #aaa;
+    margin-bottom: 50px;
+  }
+  
+  /* ===== GRID ===== */
+  
+  .contacto-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /* ===== FORMULARIO ===== */
+  
+  form {
+    background-color: #1b1b1b;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    text-align: left;
+  }
+  
+  .campo {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background: #000;
+    color: #fff;
+    font-size: 15px;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+    width: 100%;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #4ba5ff;
+  }
+  
+  /* ===== INFO DE CONTACTO ===== */
+  
+  .info {
+    background-color: #1b1b1b;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    text-align: left;
+  }
+  
+  .info h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  .info p {
+    margin-bottom: 15px;
+    color: #ddd;
+  }
+  
+  .redes h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .redes a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .redes a:hover {
+    color: #4ba5ff;
+  }
+  
+  /* ===== FOOTER ===== */
+  
+  footer {
+    text-align: center;
+    padding: 30px 10px;
+    background-color: #111;
+    color: #aaa;
+    font-size: 14px;
+    margin-top: 60px;
+  }
+  
